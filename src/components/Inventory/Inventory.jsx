@@ -10,9 +10,9 @@ const Inventory = () => {
                 <li>
                     <Link to="/inventoryUsers">Users</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/admin/orders">Orders</Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="/inventoryProducts">Products</Link>
                 </li>
