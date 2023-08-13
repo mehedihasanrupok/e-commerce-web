@@ -1,6 +1,6 @@
 .product {
     width: 300px;
-    height: 510px;
+    height: 530px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
@@ -27,6 +27,7 @@
 
 .product-info {
     margin-left: 14px;
+    margin-bottom: 8px;
 }
 
 .product-info p {
@@ -40,7 +41,12 @@
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
+    margin-top: 5px;
 }
 .btn-cart:hover{
     background-color: orange;
+}
+.btn-details{
+    background-color: aquamarine;
+    margin-bottom: 10px;
 }
