@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import ProductTotal from '../ProductTotal/ProductTotal';
 import './ProductDash.css'
 
 const ProductDash = () => {

@@ -16,6 +16,7 @@ import cartProductsLoader from './loaders/cartProductsLoader.js';
 import AuthProvider from './components/providers/AuthProvider.jsx';
 import PrivateRoute from './rotes/PrivateRoute.jsx';
 import ProductDash from './components/ProductDash/ProductDash.jsx';
+import AllCustomer from './components/AllCustomer/AllCustomer.jsx';
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: 'inventoryProducts',
         element: <ProductDash></ProductDash>,
+      },
+      {
+        path: 'inventoryUsers',
+        element: <AllCustomer></AllCustomer>,
       },
     ]
   },

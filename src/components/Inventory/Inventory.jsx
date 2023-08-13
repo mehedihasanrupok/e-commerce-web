@@ -8,7 +8,7 @@ const Inventory = () => {
             <h2>Admin Dashboard</h2>
             <ul>
                 <li>
-                    <Link to="/admin/users">Users</Link>
+                    <Link to="/inventoryUsers">Users</Link>
                 </li>
                 <li>
                     <Link to="/admin/orders">Orders</Link>

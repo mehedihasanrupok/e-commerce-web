@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+.table-data{
+    margin: 25px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: space-between; */
+}
+th{
+    justify-content: space-between;
+    gap: 25px;
+}
