@@ -22,7 +22,7 @@ const Header = () => {
                 <Link to="/login">Login</Link>
                 <Link to="/signup">SignUp</Link>
                 {user && <span className='text-white'>Welcome {user.email}  <button onClick={handleLogOut}>Log Out</button></span>}
-                <Link to="/inventory">Inventory</Link>
+                <Link to="/inventory">Dashboard</Link>
             </div>
         </nav>
     );

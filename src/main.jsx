@@ -15,6 +15,7 @@ import SignUp from './components/SignUp/SignUp.jsx';
 import cartProductsLoader from './loaders/cartProductsLoader.js';
 import AuthProvider from './components/providers/AuthProvider.jsx';
 import PrivateRoute from './rotes/PrivateRoute.jsx';
+import ProductDash from './components/ProductDash/ProductDash.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'inventory',
-        element: <PrivateRoute><Inventory></Inventory></PrivateRoute>,
+        element: <Inventory></Inventory>,
       },
       {
         path: 'login',
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: 'signup',
         element: <SignUp></SignUp>,
+      },
+      {
+        path: 'inventoryProducts',
+        element: <ProductDash></ProductDash>,
       },
     ]
   },
